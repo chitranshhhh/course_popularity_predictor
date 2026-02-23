@@ -1,0 +1,31 @@
+COURSE POPULARITY PREDICTOR — FINAL REPORT
+============================================================
+Generated : 2026-02-20 17:58:21
+Scope     : Advanced Learners Only
+
+--- REGRESSION RESULTS ---
+  Linear Regression      R2=0.3238  RMSE=0.133285  MAE=0.125862
+  Random Forest          R2=0.9998  RMSE=0.002349  MAE=0.000065
+  XGBoost                R2=0.9992  RMSE=0.004636  MAE=0.000134
+  Best Model : Random Forest
+
+--- CLASSIFICATION RESULTS ---
+  KNN                    Accuracy=100.00%  F1=1.0000
+  ANN                    Accuracy=100.00%  F1=1.0000
+  Best Model : KNN
+
+--- CLUSTERING ---
+  K-Means Clusters  : 3 (Student | Early Professional | Mid-Level Professional)
+  Silhouette Score  : 0.2088  (Weak cluster separation)
+
+--- FINAL COURSE RANKING ---
+  1st  AI                     Score=0.6661  Demand=HIGH
+  2nd  Solidity               Score=0.4404  Demand=HIGH
+  3rd  Project Management     Score=0.2683  Demand=LOW
+
+--- CONCLUSION ---
+  AI is the most popular advanced course with a score of 0.6661.
+  Solidity ranks 2nd and Project Management ranks 3rd.
+  Random Forest is the best regression model (R2=0.9998).
+  KNN achieves perfect classification accuracy.
+============================================================

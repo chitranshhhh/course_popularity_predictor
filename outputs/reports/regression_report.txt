@@ -1,0 +1,21 @@
+REGRESSION MODEL REPORT
+========================================
+
+NOTE: Linear Regression included as baseline proof of failure.
+Target has only 3 unique values — Linear Regression is NOT suitable.
+
+Model : Linear Regression
+  R²   : 0.323754
+  RMSE : 0.133285
+  MAE  : 0.125862
+
+Model : Random Forest
+  R²   : 0.999790
+  RMSE : 0.002349
+  MAE  : 0.000065
+
+Model : XGBoost
+  R²   : 0.999182
+  RMSE : 0.004636
+  MAE  : 0.000134
+
