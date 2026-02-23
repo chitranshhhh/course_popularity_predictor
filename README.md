@@ -10,7 +10,7 @@ reduction, K-Means clustering, popularity score engineering, regression
 (Random Forest + XGBoost), classification (KNN + ANN), and a final evaluation
 dashboard built with Streamlit.
 
----
+
 
 ## Dataset
 
@@ -22,11 +22,9 @@ dashboard built with Streamlit.
 | Date Range     | 2020 - 2024                           |
 | File           | data/data_100000_records_daily.csv    |
 
----
-
-## Installation
-
-```bash
-git clone https://github.com/your-username/course_popularity_predictor.git
-cd course_popularity_predictor
+##How to run
+#Install Dependencies
 pip install -r requirements.txt
+
+#Run 
+streamlit run app.py
