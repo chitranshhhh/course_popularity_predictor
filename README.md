@@ -12,7 +12,7 @@ dashboard built with Streamlit.
 
 
 
-## Dataset
+# Dataset
 
 | Property       | Value                                 |
 |----------------|---------------------------------------|
@@ -22,9 +22,9 @@ dashboard built with Streamlit.
 | Date Range     | 2020 - 2024                           |
 | File           | data/data_100000_records_daily.csv    |
 
-##How to run
-#Install Dependencies
+# How to run
+1. Install Dependencies
 pip install -r requirements.txt
 
-#Run 
+2. Run 
 streamlit run app.py
